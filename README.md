@@ -150,6 +150,12 @@ uv run labs/solutions/check.py
 
 ### المرجعيات الوطنية
 
+- [سدايا: منهج البيانات والذكاء الاصطناعي لطلبة الجامعات في مختلف التخصصات](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/Data-AI-Curriculum-University-Students.pdf)
+- [سدايا: نظام حماية البيانات الشخصية](https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf)
+<!-- /academy:sources -->
+
+## المرجعيات الوطنية بعناوينها الرسمية
+
 - منهج البيانات والذكاء الاصطناعي لطلبة الجامعات في مختلف التخصصات (مبادئ التقييم): https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/Data-AI-Curriculum-University-Students.pdf
 - نظام حماية البيانات الشخصية: https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf
 
