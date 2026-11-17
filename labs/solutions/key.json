@@ -1,0 +1,303 @@
+{
+  "seed": 201,
+  "tasks": {
+    "T1": {
+      "title": "اختبارات أسبوعية قصيرة",
+      "weight": 10,
+      "supervised": false
+    },
+    "T2": {
+      "title": "تقرير تحليل حادث",
+      "weight": 20,
+      "supervised": false
+    },
+    "T3": {
+      "title": "يوميات تأملية عن الزيارة الميدانية",
+      "weight": 10,
+      "supervised": false
+    },
+    "T4": {
+      "title": "تقييم مخاطر عملي في ورشة المعهد",
+      "weight": 20,
+      "supervised": true
+    },
+    "T5": {
+      "title": "مشروع سجل المخاطر",
+      "weight": 20,
+      "supervised": false
+    },
+    "T6": {
+      "title": "الاختبار النهائي الكتابي",
+      "weight": 20,
+      "supervised": true
+    }
+  },
+  "stress": {
+    "T1": {
+      "score": 96,
+      "minutes": 6,
+      "level": 3
+    },
+    "T2": {
+      "score": 78,
+      "minutes": 4,
+      "level": 3
+    },
+    "T3": {
+      "score": 64,
+      "minutes": 3,
+      "level": 2
+    },
+    "T4": {
+      "score": null,
+      "minutes": null,
+      "level": 0
+    },
+    "T5": {
+      "score": 58,
+      "minutes": 7,
+      "level": 2
+    },
+    "T6": {
+      "score": null,
+      "minutes": null,
+      "level": 0
+    }
+  },
+  "t1_wrong_items": [
+    5,
+    46
+  ],
+  "t5_wrong_rows": [
+    1,
+    6,
+    7
+  ],
+  "exposed_weight_level2_plus": 60,
+  "exposed_weight_level3": 30,
+  "false_accusations": {
+    "rate_1": [
+      0.3,
+      2.4,
+      30.0
+    ],
+    "at_least_one_pct": [
+      26.0,
+      91.0,
+      100.0
+    ],
+    "rate_1_four_submissions": [
+      1.2,
+      9.6,
+      120.0
+    ],
+    "rate_4": [
+      1.2,
+      9.6,
+      120.0
+    ],
+    "rate_9": [
+      2.7,
+      21.6,
+      270.0
+    ],
+    "share_a": [
+      21.6,
+      2.16,
+      9.1
+    ],
+    "share_b": [
+      9.6,
+      8.64,
+      47.4
+    ],
+    "share_c": [
+      6.24,
+      19.44,
+      75.7
+    ],
+    "stretch_rate_pct": 0.0083
+  },
+  "gates": {
+    "A": {
+      "week": 6
+    },
+    "B": {
+      "week": 12
+    }
+  },
+  "policy": {
+    "reference": {
+      "open_tasks": "any_use_with_disclosure",
+      "secure_tasks": "no_ai_under_supervision",
+      "disclosure_missing": "incomplete_until_evidence",
+      "detector_score": "never_a_finding",
+      "suspicion_steps": [
+        "محادثة مع المتعلم",
+        "طلب الأدلة الإجرائية",
+        "اختبار شفهي قصير",
+        "قرار اللجنة بعد سماع المتعلم"
+      ]
+    },
+    "ambiguous": {
+      "open_tasks": "limited_use",
+      "secure_tasks": "no_ai_under_supervision",
+      "disclosure_missing": "incomplete_until_evidence",
+      "detector_score": "never_a_finding",
+      "suspicion_steps": [
+        "محادثة مع المتعلم",
+        "طلب الأدلة الإجرائية",
+        "اختبار شفهي قصير",
+        "قرار اللجنة بعد سماع المتعلم"
+      ]
+    },
+    "cases": [
+      {
+        "id": 1,
+        "lane": "open",
+        "use": "translation",
+        "disclosed": true,
+        "detector": null,
+        "observed_use": false
+      },
+      {
+        "id": 2,
+        "lane": "secure",
+        "use": "assistant_on_phone",
+        "disclosed": false,
+        "detector": null,
+        "observed_use": true
+      },
+      {
+        "id": 3,
+        "lane": "open",
+        "use": "unknown",
+        "disclosed": false,
+        "detector": 88,
+        "observed_use": false
+      }
+    ],
+    "rulings": {
+      "1": "مسموح",
+      "2": "مخالفة",
+      "3": "يحتاج إلى خطوة"
+    }
+  },
+  "submissions": {
+    "A": {
+      "sessions": 3,
+      "minutes": 19,
+      "final_words": 1175,
+      "largest_insertion": 1150,
+      "largest_share_pct": 97.9,
+      "days_active": 2,
+      "detector": 12
+    },
+    "B": {
+      "sessions": 5,
+      "minutes": 200,
+      "final_words": 1005,
+      "largest_insertion": 35,
+      "largest_share_pct": 3.5,
+      "days_active": 5,
+      "detector": 71
+    }
+  },
+  "oral": {
+    "criteria": [
+      "يشرح اختياراته في عمله",
+      "يطبّق على حالة جديدة",
+      "يعرف مصادره وحدودها",
+      "يصف عمليته بما يطابق الدليل الإجرائي"
+    ],
+    "reference_marks": {
+      "A": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "B": [
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    "tolerance": 2
+  },
+  "rubrics": {
+    "old": [
+      [
+        "وصف الحادث",
+        20
+      ],
+      [
+        "الأسباب",
+        30
+      ],
+      [
+        "الضوابط",
+        30
+      ],
+      [
+        "اللغة والتنظيم",
+        20
+      ]
+    ],
+    "start": [
+      [
+        "الحكم: اختيار الضابط تحت قيد الميزانية وتبريره",
+        25
+      ],
+      [
+        "نقد تحليل المساعد قياسًا على حقائق الموقع",
+        20
+      ],
+      [
+        "استخدام حقائق الموقع من سجل الورشة",
+        15
+      ],
+      [
+        "خلفية نظرية عن تسلسل ضوابط التحكم",
+        10
+      ],
+      [
+        "الدليل الإجرائي والإفصاح",
+        10
+      ],
+      [
+        "المناقشة الشفهية",
+        20
+      ]
+    ],
+    "fixed": [
+      [
+        "الحكم: اختيار الضابط تحت قيد الميزانية وتبريره",
+        30
+      ],
+      [
+        "نقد تحليل المساعد قياسًا على حقائق الموقع",
+        20
+      ],
+      [
+        "استخدام حقائق الموقع من سجل الورشة",
+        15
+      ],
+      [
+        "الدليل الإجرائي والإفصاح",
+        15
+      ],
+      [
+        "المناقشة الشفهية",
+        20
+      ]
+    ]
+  },
+  "retest": {
+    "old_score": 78,
+    "start_score": 36,
+    "fixed_score": 29,
+    "pass_mark": 60
+  }
+}
