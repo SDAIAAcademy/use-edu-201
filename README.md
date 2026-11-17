@@ -133,7 +133,6 @@ uv run labs/solutions/check.py
 - [Scarfe, Watcham, Clarke, Roesch: A real-world test of artificial intelligence infiltration of a university examinations system (PLOS ONE, 2024)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305354)
 - [University of Sydney, Teaching@Sydney: What to do about assessments if we can't out-design or out-run AI?](https://educational-innovation.sydney.edu.au/teaching@sydney/what-to-do-about-assessments-if-we-cant-out-design-or-out-run-ai/)
 - [University of Sydney, Teaching@Sydney: Frequently asked questions about the two-lane approach to assessment in the age of AI](https://educational-innovation.sydney.edu.au/teaching@sydney/frequently-asked-questions-about-the-two-lane-approach-to-assessment-in-the-age-of-ai/)
-- [UNESCO: Guidance for generative AI in education and research](https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research)
 
 ### مقياس استخدام الذكاء الاصطناعي في التقييم
 
