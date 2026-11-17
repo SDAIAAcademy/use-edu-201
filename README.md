@@ -5,7 +5,7 @@ Teaching and Assessing in the AI Era
 
 مسار الطلاقة في البيانات والذكاء الاصطناعي · أكاديمية سدايا · USE-EDU-201 · المستوى 200
 
-REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك فعله بعد المقرر
+تختبر صمود تقييمات مقررك أمام المساعدات الذكية، وتعيد تصميمها في مسار مؤمَّن ومسار مفتوح، وتكتب سياسة المقرر، وتتدرب على الاختبار الشفهي ومراجعة الأدلة الإجرائية
 
 يختبر المعلمون صمود تقييمات مقرر ما أمام المساعدات الذكية، ثم يعيدون تصميمها في مسارين: مهام مؤمَّنة تشهد بالمهارة دون مساعدة، ومهام مفتوحة يُستخدم فيها الذكاء الاصطناعي استخدامًا موجهًا يُفصح عنه ويُناقَش. ويتعرفون أسباب إخفاق أدوات الكشف، ويتدربون على الاختبارات الشفهية ومراجعة الأدلة الإجرائية، ويكتبون سياسة لاستخدام الذكاء الاصطناعي في المقرر. أما سياسة الشهادات فيتناولها المقرر LDS-EXE-302.
 
@@ -29,8 +29,9 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | الوحدة | العنوان | الجلسات | الشرائح |
 |---|---|---|---|
-| اليوم 1 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day1.html`](slides/day1.html) |
-| اليوم 2 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day2.html`](slides/day2.html) |
+| اليوم 1 | ما الذي تشهد به تقييماتك؟ | اختبار الصمود: ما الذي تشهد به كل مهمة؟; لماذا تفشل أدوات الكشف; نموذج المسارين: مؤمَّن حيث تشهد، ومفتوح حيث تعلّم; تصنيف الاستخدام في كل مهمة وسياسة المقرر | [`slides/day1.html`](slides/day1.html) |
+| اليوم 2 | أدلة لا يكتبها أحد عن المتعلم | الأدلة الإجرائية: المسودات وسجل الإصدارات وسجل المحادثة; الاختبار الشفهي القصير; مهام تحتاج إلى حكم وسياق محلي ونقد للذكاء الاصطناعي; أعد الاختبار ودافع عن تصميمك | [`slides/day2.html`](slides/day2.html) |
+| المشروع الختامي | مراجعة خطط التقييم المعاد تصميمها |  | [`slides/capstone.html`](slides/capstone.html) |
 <!-- /academy:units -->
 
 ## دراسة الحالة
@@ -44,14 +45,14 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | | الجلسة | المختبر | الملف |
 |---|---|---|---|
-| 1.1 | اليوم 1 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 1.1 | [`D1_1.html`](labs/D1_1.html) |
-| 1.2 | اليوم 1 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 1.2 | [`D1_2.html`](labs/D1_2.html) |
-| 1.3 | اليوم 1 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 1.3 | [`D1_3.html`](labs/D1_3.html) |
-| 1.4 | اليوم 1 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 1.4 | [`D1_4.html`](labs/D1_4.html) |
-| 2.1 | اليوم 2 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 2.1 | [`D2_1.html`](labs/D2_1.html) |
-| 2.2 | اليوم 2 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 2.2 | [`D2_2.html`](labs/D2_2.html) |
-| 2.3 | اليوم 2 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 2.3 | [`D2_3.html`](labs/D2_3.html) |
-| 2.4 | اليوم 2 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 2.4 | [`D2_4.html`](labs/D2_4.html) |
+| 1.1 | اليوم 1 · الجلسة 1 | جدول التدقيق من اختبار الصمود | [`D1_1_audit.html`](labs/D1_1_audit.html) |
+| 1.2 | اليوم 1 · الجلسة 2 | حساب الاتهامات الخاطئة | [`D1_2_false_accusations.html`](labs/D1_2_false_accusations.html) |
+| 1.3 | اليوم 1 · الجلسة 3 | خريطة المسارين | [`D1_3_lane_map.html`](labs/D1_3_lane_map.html) |
+| 1.4 | اليوم 1 · الجلسة 4 | تصنيف الاستخدام وسياسة المقرر | [`D1_4_policy.html`](labs/D1_4_policy.html) |
+| 2.1 | اليوم 2 · الجلسة 1 | مراجعة الأدلة الإجرائية وبنك الأسئلة | [`D2_1_process_evidence.html`](labs/D2_1_process_evidence.html) |
+| 2.2 | اليوم 2 · الجلسة 2 | اختبارات شفهية تجريبية في أزواج | [`D2_2_mock_orals.html`](labs/D2_2_mock_orals.html) |
+| 2.3 | اليوم 2 · الجلسة 3 | إعادة كتابة واجب مكشوف | [`D2_3_rewrite.html`](labs/D2_3_rewrite.html) |
+| 2.4 | اليوم 2 · الجلسة 4 | إعادة الاختبار والدفاع عن التصميم | [`D2_4_retest.html`](labs/D2_4_retest.html) |
 <!-- /academy:labs -->
 
 ## المتطلبات السابقة
@@ -72,7 +73,40 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 <!-- academy:sources -->
 ## المصادر
 
-- REPLACE: كل مصدر يستشهد به المقرر مع عنوانه، في course.json ضمن "sources"؛ هذه القائمة تُكتب من هناك
+### أدوات الكشف: معدلات الخطأ والتحيز
+
+- [Liang, Yuksekgonul, Mao, Wu, Zou: GPT detectors are biased against non-native English writers (Patterns, 2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10382961/)
+- [Weber-Wulff et al.: Testing of detection tools for AI-generated text (2023)](https://arxiv.org/abs/2306.15666)
+- [Perkins et al.: Simple techniques to bypass GenAI text detectors (2024)](https://arxiv.org/abs/2403.19148)
+- [Turnitin: Understanding false positives within our AI writing detection capabilities](https://www.turnitin.com/blog/understanding-false-positives-within-our-ai-writing-detection-capabilities)
+- [Turnitin: Understanding the false positive rate for sentences of our AI writing detection capability](https://www.turnitin.com/blog/understanding-the-false-positive-rate-for-sentences-of-our-ai-writing-detection-capability)
+- [Vanderbilt University: Guidance on AI detection and why we are disabling Turnitin's AI detector](https://www.vanderbilt.edu/brightspace/2023/08/16/guidance-on-ai-detection-and-why-were-disabling-turnitins-ai-detector/)
+- [OpenAI: New AI classifier for indicating AI-written text (withdrawn on 20 July 2023)](https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/)
+
+### انكشاف التقييم ونموذج المسارين
+
+- [Scarfe, Watcham, Clarke, Roesch: A real-world test of artificial intelligence infiltration of a university examinations system (PLOS ONE, 2024)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305354)
+- [University of Sydney, Teaching@Sydney: What to do about assessments if we can't out-design or out-run AI?](https://educational-innovation.sydney.edu.au/teaching@sydney/what-to-do-about-assessments-if-we-cant-out-design-or-out-run-ai/)
+- [University of Sydney, Teaching@Sydney: Frequently asked questions about the two-lane approach to assessment in the age of AI](https://educational-innovation.sydney.edu.au/teaching@sydney/frequently-asked-questions-about-the-two-lane-approach-to-assessment-in-the-age-of-ai/)
+- [UNESCO: Guidance for generative AI in education and research](https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research)
+
+### مقياس استخدام الذكاء الاصطناعي في التقييم
+
+- [The AI Assessment Scale (AIAS): the five levels, version 2.1](https://aiassessmentscale.com/)
+- [Perkins, Furze, Roe, MacVaugh: The AI Assessment Scale (AIAS), the original paper](https://arxiv.org/abs/2312.07086)
+- [Perkins, Roe, Furze: The AI Assessment Scale revisited (version 2)](https://arxiv.org/abs/2412.09029)
+
+### الاختبار الشفهي والأدلة الإجرائية
+
+- [Dublin City University, Teaching Enhancement Unit: Interactive Oral Assessment](https://www.dcu.ie/teu/interactive-oral-assessment)
+- [University of Sydney, Teaching@Sydney: Five myths about interactive oral assessments and how to get started](https://educational-innovation.sydney.edu.au/teaching@sydney/five-myths-about-interactive-oral-assessments-and-how-to-get-started/)
+- [Google Docs Editors Help: Find what's changed in a file (version history)](https://support.google.com/docs/answer/190843)
+- [Nextcloud Office](https://nextcloud.com/office/)
+
+### المرجعيات الوطنية
+
+- [سدايا: منهج البيانات والذكاء الاصطناعي لطلبة الجامعات في مختلف التخصصات](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/Data-AI-Curriculum-University-Students.pdf)
+- [سدايا: نظام حماية البيانات الشخصية](https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf)
 <!-- /academy:sources -->
 
 ### المرجعيات الوطنية
