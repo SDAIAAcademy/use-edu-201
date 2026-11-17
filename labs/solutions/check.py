@@ -75,7 +75,7 @@ def lab_1_2() -> None:
         ai, honest = 24, 216
         t, f = round(ai * sens, 2), round(honest * fpr, 2)
         expect(f"1.2 flags under assumption {name}: true, false, honest share %", [t, f, round(f / (t + f) * 100, 1)], fa[f"share_{name}"])
-    expect("1.2 stretch: rate for one false accusation a year, per cent", round(1 / 12000 * 100, 4), fa["stretch_rate_pct"])
+    expect("1.2 stretch: rate for one false accusation a semester, per cent", round(1 / 12000 * 100, 4), fa["stretch_rate_pct"])
     claim = (FILES / "detector_claim.txt").read_text(encoding="utf-8")
     expect("1.2 the claim sheet gives the rate and the three cohorts", all(s in claim for s in ("1%", "30 متدرب", "240 متدرب", "3,000 متدرب")), True)
     sheet = rows(FILES / "false_accusations_sheet.csv")
